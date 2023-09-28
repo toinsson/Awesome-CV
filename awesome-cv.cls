@@ -626,11 +626,12 @@
 
 % Define a section for CV
 % Usage: \cvsection{<section-title>}
-\newcommand{\cvsection}[1]{%
+\newcommand{\cvsection}[2]{%
   \vspace{\acvSectionTopSkip}
   \sectionstyle{#1}
   \phantomsection
   \color{sectiondivider}\vhrulefill{0.9pt}
+  #2
 }
 
 % Define a subsection for CV

@@ -625,7 +625,7 @@
 }
 
 % Define a section for CV
-% Usage: \cvsection{<section-title>}
+% Usage: \cvsection{<section-title>}{<section-length>}
 \newcommand{\cvsection}[2]{%
   \vspace{\acvSectionTopSkip}
   \sectionstyle{#1}
